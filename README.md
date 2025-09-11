@@ -18,3 +18,8 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
+1. giới thiệu
+2. công nghệ sử dụng 
+3. một số hình ảnh hệ thống 
+4. các bước cài đặt 
+5. liên hệ ( cá nhân)
