@@ -18,8 +18,55 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
-1. giới thiệu
-2. công nghệ sử dụng 
-3. một số hình ảnh hệ thống 
-4. các bước cài đặt 
-5. liên hệ ( cá nhân)
+
+
+## 📖 1. Giới thiệu
+Ứng dụng được xây dựng nhằm mô phỏng quá trình truyền file giữa các máy tính trong mạng thông qua giao thức TCP.
+Trong mô hình này, Server đóng vai trò trung gian, chịu trách nhiệm lắng nghe kết nối từ các Client, tiếp nhận dữ liệu (file) từ Client gửi đến và lưu trữ file trên server.
+
+**Mục tiêu chính:**
+
+Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ liệu.
+- Nắm vững cơ chế kết nối Client – Server.
+- Thực hành xử lý dữ liệu file (upload/download).
+- Xây dựng giao diện người dùng thân thiện với Java Swing.
+
+**Chức năng cơ bản:**
+
+- Upload file từ Client lên Server.
+- Tìm kiếm file theo tên trên Server.
+- Download file từ Server về Client.
+- Hiển thị thông tin file (tên, kích thước, ngày chỉnh sửa).
+
+---
+
+#### 🛠️ 2. Công nghệ sử dụng
+
+- **Ngôn ngữ lập trình:** Java (JDK 8+)
+- **Giao thức mạng:** TCP Socket (`java.net.Socket`, `java.net.ServerSocket`)
+- **Xử lý đa luồng:** `ExecutorService` để phục vụ nhiều Client đồng thời
+- **Công nghệ giao diện:** Java Swing (`JFrame`, `JButton`, `JTable`, `JProgressBar`, `JFileChooser`)
+- **Cơ chế truyền dữ liệu:** `DataInputStream` và `DataOutputStream` để truyền file và lệnh (`UPLOAD`, `DOWNLOAD`, `SEARCH`)
+
+### 📚 Thư viện sử dụng
+- `java.net` - Socket communication  
+- `java.io` - File I/O operations  
+- `javax.swing` - GUI components  
+- `java.awt` - Layout managers và Color  
+- `java.util` - Collections và Date formatting  
+- `java.util.concurrent` - Thread pool management  
+
+### 🖥️ Công cụ & Môi trường phát triển
+- **Công cụ phát triển:** Eclipse IDE / IntelliJ IDEA / NetBeans  
+- **Phiên bản JDK:** Java SE 8+ (khuyến nghị Java 21)  
+- **Hệ điều hành:** Windows 10/11 (đa nền tảng: Linux, macOS)  
+
+---
+
+## 3. một số hình ảnh hệ thống 
+## 4. các bước cài đặt 
+
+## 5. liên hệ cá nhân
+Nếu có vấn đề cần thắc mắc và giải đáp liên hệ :
+
+📧 Email:anhnguyen0934422067@gmail.
