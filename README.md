@@ -21,8 +21,8 @@
 
 
 ## 📖 1. Giới thiệu
-Ứng dụng được xây dựng nhằm mô phỏng quá trình truyền file giữa các máy tính trong mạng thông qua giao thức TCP.
-Trong mô hình này, Server đóng vai trò trung gian, chịu trách nhiệm lắng nghe kết nối từ các Client, tiếp nhận dữ liệu (file) từ Client gửi đến và lưu trữ file trên server.
+Sản phẩm được xây dựng nhằm mô phỏng quá trình truyền file giữa các máy tính trong mạng thông qua giao thức TCP.
+Trong mô hình này, Server đóng vai trò trung gian, chịu trách nhiệm lắng nghe kết nối từ Client, tiếp nhận dữ liệu (file) từ Client gửi đến và lưu trữ file trên server.
 
 **Mục tiêu chính:**
 
