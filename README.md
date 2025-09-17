@@ -40,7 +40,7 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 
 ---
 
-#### 🛠️ 2. Công nghệ sử dụng
+## 🛠️ 2. Công nghệ sử dụng
 
 - **Ngôn ngữ lập trình:** Java (JDK 8+)
 - **Giao thức mạng:** TCP Socket (`java.net.Socket`, `java.net.ServerSocket`)
