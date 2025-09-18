@@ -82,7 +82,73 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 <p align="center"> <img width="800" height="800" alt="image" src=image4.png/> </p>
 <p align="center"><i>Hình ảnh 4</i></p>
 
-## 4. Các bước cài đặt 
+## 📝 4. Các bước cài đặt
+
+#### Bước 1: Chuẩn bị môi trường
+1. **Kiểm tra Java**: Mở terminal/command prompt và chạy:
+   ```bash
+   java -version
+   javac -version
+   ```
+   Đảm bảo cả hai lệnh đều hiển thị phiên bản Java 8 trở lên.
+
+2. **Chuẩn bị IDE**: Khởi động Eclipse IDE và chọn workspace là thư mục vừa tạo.
+
+#### Bước 2: Tạo project và cấu trúc
+1. **Tạo Java Project**:
+   - **File** → **New** → **Java Project**
+   - **Project name**: `TCPFileTransfer`
+   - **JRE**: Sử dụng default JRE (*Java 21*)
+   - Bỏ check **"Create module-info.java file"**
+   - Click **Finish**
+
+2. **Tạo cấu trúc package**: Trong thư mục `src`, tạo các package:
+   ```
+   src/
+   ├── server/
+   ├── client/
+   ├── common/
+   └── utils/
+   ```
+   *Cách tạo: Right-click `src` → **New** → **Package** → Nhập tên package → **Finish***
+
+3. **Tạo các file Java**:
+   - `server/TCPFileServer.java` (*với main method*)
+   - `server/ClientHandler.java` (*implement Runnable*)
+   - `client/TCPFileClient.java`
+   - `client/ClientGUI.java` (*extends JFrame, với main method*)
+   - `common/FileInfo.java`
+   - `utils/FileUtils.java`
+
+#### Bước 3: Copy mã nguồn
+1. **Copy source code**: Sao chép nội dung code vào từng file tương ứng đã tạo.
+
+2. **Organize imports**: Sử dụng **Ctrl+Shift+O** để tự động import các thư viện cần thiết.
+
+3. **Kiểm tra lỗi**: Đảm bảo không có lỗi compile trong Project Explorer.
+
+#### Bước 4: Chạy ứng dụng
+
+**Khởi động Server:**
+1. **Right-click** file `TCPFileServer.java`
+2. **Run As** → **Java Application**
+3. Server sẽ khởi động trên port **12345** mặc định
+4. Console hiển thị:
+   ```
+   Server đã khởi động trên port 12345
+   Đang chờ client kết nối...
+   ```
+
+**Khởi động Client:**
+1. **Right-click** file `ClientGUI.java`
+2. **Run As** → **Java Application**  
+3. Giao diện GUI sẽ xuất hiện
+4. Click nút **"Kết Nối"** để kết nối đến Server
+5. Status sẽ chuyển thành **"Đã kết nối"** (*màu xanh*)
+6. Server console sẽ hiển thị: `Client đã kết nối: /127.0.0.1`
+
+---
+ 
 
 ## 5. Liên hệ cá nhân
 - Sinh viên thực hiện: Nguyễn Đức Anh
