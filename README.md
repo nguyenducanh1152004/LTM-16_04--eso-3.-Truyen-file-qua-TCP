@@ -67,6 +67,5 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 ## 4. Các bước cài đặt 
 
 ## 5. Liên hệ cá nhân
-Nếu có vấn đề cần thắc mắc và giải đáp liên hệ :
 
-📧 Email:anhnguyen0934422067@gmail.
+- 📧 Email:anhnguyen0934422067@gmail.
