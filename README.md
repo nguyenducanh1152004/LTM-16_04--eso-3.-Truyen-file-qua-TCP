@@ -76,7 +76,7 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 - Giao diện Thông báo và hiển thị thông tin file.
 
 <p align="center"> <img width="800" height="800" alt="image" src=image3.png/> </p>
-<p align="center"><i>Hình ảnh 3<-/i></p>
+<p align="center"><i>Hình ảnh 3</i></p>
 
 - Giao diện Tìm kiếm file.
 <p align="center"> <img width="800" height="800" alt="image" src=image4.png/> </p>
