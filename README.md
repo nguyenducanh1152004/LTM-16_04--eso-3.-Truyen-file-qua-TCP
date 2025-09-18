@@ -152,7 +152,7 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 
 ## 5. Liên hệ cá nhân
 - **Sinh viên thực hiện:** **Nguyễn Đức Anh**
-- **Khoa công nghệ thông tin – Đại học Đại Nam**  
+- **Khoa: công nghệ thông tin – Đại học Đại Nam**  
 - 🌐 Website: [https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)  
 - 📧 Email: [anhnguyen0934422067@gmail.com]
 - 📱 Fanpage: [AIoTLab - FIT DNU](https://www.facebook.com/DNUAIoTLab)
