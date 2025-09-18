@@ -20,8 +20,7 @@
 </div>
 
 
-## 📖 1. Giới thiệu
-Sản phẩm được xây dựng nhằm mô phỏng quá trình truyền file giữa các máy tính trong mạng thông qua giao thức TCP.
+Hệ thống Truyền file qua TCP được xây dựng nhằm mô phỏng quá trình truyền file giữa các máy tính trong mạng thông qua giao thức TCP.
 Trong mô hình này, Server đóng vai trò trung gian, chịu trách nhiệm lắng nghe kết nối từ Client, tiếp nhận dữ liệu (file) từ Client gửi đến và lưu trữ file trên server.
 
 **Mục tiêu chính:**
@@ -64,6 +63,25 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 ---
 
 ## 3. Một số hình ảnh hệ thống 
+
+- Giao diện Hệ thống.
+<p align="center"> <img width="800" height="800" alt="image1" src=image.png/> </p>
+<p align="center"><i>Hình ảnh 1</i></p>
+
+- Giao diện Chọn file.
+
+<p align="center"> <img width="800" height="800" alt="image2" src=image-1.png/> </p>
+<p align="center"><i>Hình ảnh 2</i></p>
+
+- Giao diện Thông báo và hiển thị thông tin file.
+
+<p align="center"> <img width="800" height="800" alt="image3" src=image-2.png/> </p>
+<p align="center"><i>Hình ảnh 3<-/i></p>
+
+- Giao diện Tìm kiếm file.
+<p align="center"> <img width="800" height="800" alt="image4" src=image-3.png/> </p>
+<p align="center"><i>Hình ảnh 4</i></p>
+
 ## 4. Các bước cài đặt 
 
 ## 5. Liên hệ cá nhân
