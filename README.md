@@ -65,21 +65,21 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 ## 3. Một số hình ảnh hệ thống 
 
 - Giao diện Hệ thống.
-<p align="center"> <img width="800" height="800" alt="image1" src=image.png/> </p>
+<p align="center"> <img width="800" height="800" alt="image1" src=image1.png/> </p>
 <p align="center"><i>Hình ảnh 1</i></p>
 
 - Giao diện Chọn file.
 
-<p align="center"> <img width="800" height="800" alt="image2" src=image-1.png/> </p>
+<p align="center"> <img width="800" height="800" alt="image2" src=image2.png/> </p>
 <p align="center"><i>Hình ảnh 2</i></p>
 
 - Giao diện Thông báo và hiển thị thông tin file.
 
-<p align="center"> <img width="800" height="800" alt="image3" src=image-2.png/> </p>
+<p align="center"> <img width="800" height="800" alt="image3" src=image3.png/> </p>
 <p align="center"><i>Hình ảnh 3<-/i></p>
 
 - Giao diện Tìm kiếm file.
-<p align="center"> <img width="800" height="800" alt="image4" src=image-3.png/> </p>
+<p align="center"> <img width="800" height="800" alt="image4" src=image4.png/> </p>
 <p align="center"><i>Hình ảnh 4</i></p>
 
 ## 4. Các bước cài đặt 
