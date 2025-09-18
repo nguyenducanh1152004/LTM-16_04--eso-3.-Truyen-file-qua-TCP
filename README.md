@@ -57,7 +57,7 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 - `java.util.concurrent` - Thread pool management  
 
 ### 🖥️ Công cụ & Môi trường phát triển
-- **Công cụ phát triển:** Eclipse IDE / IntelliJ IDEA / NetBeans  
+- **Công cụ phát triển:** Eclipse IDE   
 - **Phiên bản JDK:** Java SE 8+ (khuyến nghị Java 21)  
 - **Hệ điều hành:** Windows 10/11 (đa nền tảng: Linux, macOS)  
 
