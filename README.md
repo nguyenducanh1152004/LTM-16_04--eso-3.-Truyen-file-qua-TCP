@@ -44,7 +44,7 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 
 - **Ngôn ngữ lập trình:** Java (JDK 8+)
 - **Giao thức mạng:** TCP Socket (`java.net.Socket`, `java.net.ServerSocket`)
-- **Xử lý đa luồng:** `ExecutorService` để phục vụ nhiều Client đồng thời
+- **Xử lý đa luồng:** `ExecutorService` 
 - **Công nghệ giao diện:** Java Swing (`JFrame`, `JButton`, `JTable`, `JProgressBar`, `JFileChooser`)
 - **Cơ chế truyền dữ liệu:** `DataInputStream` và `DataOutputStream` để truyền file và lệnh (`UPLOAD`, `DOWNLOAD`, `SEARCH`)
 
