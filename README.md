@@ -82,11 +82,11 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 - Giao diện Thông báo và hiển thị thông tin file.
 
 <p align="center"> <img width="800" height="800" alt="image" src=anh4.png/> </p>
-<p align="center"><i>Hình ảnh 3</i></p>
+<p align="center"><i>Hình ảnh 4</i></p>
 
 - Giao diện Lịch sử truyền nhận file.
 <p align="center"> <img width="800" height="800" alt="image" src=anh5.png/> </p>
-<p align="center"><i>Hình ảnh 4</i></p>
+<p align="center"><i>Hình ảnh 5</i></p>
 
 ## 📝 4. Các bước cài đặt
 
