@@ -32,10 +32,11 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 
 **Chức năng cơ bản:**
 
-- Upload file từ Client lên Server.
-- Tìm kiếm file theo tên trên Server.
-- Download file từ Server về Client.
+- Đăng nhập đăng ký tài khoản.
+- Chọn client muốn gửi file.
+- Gửi và nhận file.
 - Hiển thị thông tin file (tên, kích thước, ngày chỉnh sửa).
+- Hiển thị lịch sử nhận và gửi, xóa lịch sử, làm mới .
 
 ---
 
@@ -64,22 +65,27 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 
 ## 🚀 3. Một số hình ảnh hệ thống 
 
-- Giao diện Hệ thống.
-<p align="center"> <img width="800" height="800" alt="image" src=image1.png/> </p>
+- Giao diện Đăng nhập/Đăng ký.
+<p align="center"> <img width="800" height="800" alt="image" src=anh1.png/> </p>
 <p align="center"><i>Hình ảnh 1</i></p>
+
+- Giao diện trang chủ.
+
+<p align="center"> <img width="800" height="800" alt="image" src=anh2.png/> </p>
+<p align="center"><i>Hình ảnh 2</i></p>
 
 - Giao diện Chọn file.
 
-<p align="center"> <img width="800" height="800" alt="image" src=image2.png/> </p>
-<p align="center"><i>Hình ảnh 2</i></p>
+<p align="center"> <img width="800" height="800" alt="image" src=anh3.png/> </p>
+<p align="center"><i>Hình ảnh 3</i></p>
 
 - Giao diện Thông báo và hiển thị thông tin file.
 
-<p align="center"> <img width="800" height="800" alt="image" src=image3.png/> </p>
+<p align="center"> <img width="800" height="800" alt="image" src=anh4.png/> </p>
 <p align="center"><i>Hình ảnh 3</i></p>
 
-- Giao diện Tìm kiếm file.
-<p align="center"> <img width="800" height="800" alt="image" src=image4.png/> </p>
+- Giao diện Lịch sử truyền nhận file.
+<p align="center"> <img width="800" height="800" alt="image" src=anh5.png/> </p>
 <p align="center"><i>Hình ảnh 4</i></p>
 
 ## 📝 4. Các bước cài đặt
@@ -107,18 +113,20 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
    src/
    ├── server/
    ├── client/
-   ├── common/
-   └── utils/
+   └── common/
    ```
    - *Cách tạo: Right-click `src` → **New** → **Package** → Nhập tên package → **Finish***
 
 **Tạo các file Java**:
-   - `server/TCPFileServer.java` (*với main method*)
-   - `server/ClientHandler.java` (*implement Runnable*)
-   - `client/TCPFileClient.java`
-   - `client/ClientGUI.java` (*extends JFrame, với main method*)
+   - `server/FileTransferServer.java` 
+   - `server/ClientHandler.java`
+   - `client/UserDatabase.java`
+   - `client/LoginDialog.java`
+   - `client/ClientGUI.java` 
+   - `common/User.java`
+   - `common/TransferHistory.java`
+   - `common/Message.java`
    - `common/FileInfo.java`
-   - `utils/FileUtils.java`
 
 #### Bước 3: Copy mã nguồn
 **Copy source code**: Sao chép nội dung code vào từng file tương ứng đã tạo.
@@ -145,7 +153,6 @@ Hiểu rõ cách hoạt động của giao thức TCP trong việc truyền dữ
 - Giao diện GUI sẽ xuất hiện
 - Click nút **"Kết Nối"** để kết nối đến Server
 - Status sẽ chuyển thành **"Đã kết nối"** (*màu xanh*)
-- Server console sẽ hiển thị: `Client đã kết nối: /127.0.0.1`
 
 ---
  
